@@ -1,0 +1,15 @@
+[project]
+name = "detsky-den2026"
+version = "0.1.0"
+description = "Sketch-to-image app using AI image generation"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gradio>=5.0.0",
+    "openai>=1.0.0",
+    "google-genai>=1.0.0",
+    "pillow>=10.0.0",
+]
+
+[project.scripts]
+sketch-to-image = "main:main"
