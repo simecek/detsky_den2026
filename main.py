@@ -26,7 +26,11 @@ STYLES = [
     ("tužková kresba (vylepšená)", "pencil sketch (refined)"),
     ("pohádková ilustrace", "storybook illustration"),
     ("pop art", "pop art"),
-    ("impresionistický styl", "impressionist"),
+    ("kubismus", "cubism"),
+    ("styl Krteček (pohádka Zdeněk Miler)", "fairy tale Little Mole (Zdenek Miler)"),
+    ("Josef Lada", "Josef Lada like"),
+    ("Alfons Mucha", "Alfond Mucha like"),
+    
 ]
 
 
@@ -234,14 +238,14 @@ def create_app() -> gr.Blocks:
                     height=400,
                 )
 
-                print_btn = gr.Button(
-                    "🖨️ Vytisknout",
+                regenerate_btn = gr.Button(
+                    "🔄 Přegenerovat",
                     variant="secondary",
                     size="lg",
                 )
 
-                regenerate_btn = gr.Button(
-                    "🔄 Přegenerovat",
+                print_btn = gr.Button(
+                    "🖨️ Vytisknout",
                     variant="secondary",
                     size="lg",
                 )
