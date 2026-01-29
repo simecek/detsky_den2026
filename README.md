@@ -4,6 +4,8 @@ Transform children's sketches and drawings into beautiful AI-generated images!
 
 Upload a photo of a hand-drawn sketch, select an artistic style, and watch as AI transforms it into a polished image while preserving the original composition and creativity.
 
+![Screenshot](assets/Screenshot.png)
+
 ## Features
 
 - **Multiple AI Providers**: Switch between OpenAI and Google Gemini
@@ -102,6 +104,7 @@ PROVIDERS["my_provider"] = MyNewProvider
 
 ```
 detsky_den2026/
+├── assets/          # Screenshots and images for README
 ├── main.py          # Gradio UI and app entry point
 ├── providers.py     # Image generation provider implementations
 ├── pyproject.toml   # Project dependencies
